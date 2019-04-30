@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Mongo_Project
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: my_demo
+      repositories:
+        enabled: true
